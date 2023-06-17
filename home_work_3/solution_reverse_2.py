@@ -39,8 +39,7 @@ def my_reverse(head):
 
 
 my_list = LinkedList()
-for i in range(1, 56):
-    my_list.append(i)
+[my_list.append(i) for i in range(1, 56)]
 
 console_out(my_list.head)
 console_out(my_reverse(my_list.head))
